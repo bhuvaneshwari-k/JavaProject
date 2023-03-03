@@ -2,7 +2,7 @@ package org.example;
 import java.util.logging.*;
 import java.util.*;
 
-public class Space implements Cloneable {
+public class Space implements cloneable {
     Logger l = Logger.getLogger("space.class");
 
     String x1 = "20";
