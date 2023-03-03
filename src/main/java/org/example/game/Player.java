@@ -1,5 +1,4 @@
 package org.example.game;
-import org.example.game.GameBoard;
 
 import java.io.FileDescriptor;
 import java.io.FileOutputStream;
