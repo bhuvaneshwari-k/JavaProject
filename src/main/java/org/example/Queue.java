@@ -44,7 +44,7 @@ public class Queue {
                     temp = temp.nextNode;
                 }
             }
-            log.log(Level.INFO, "Size of the Queue is:" + this.count);
+            log.log(Level.INFO,()-> "Size of the Queue is:" + this.count);
     }
 
     public static void startQueue() {
