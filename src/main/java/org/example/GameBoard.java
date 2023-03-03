@@ -17,14 +17,14 @@ public class GameBoard {
     public static int player1(String name1,char key1,int count1){
         position(name1,key1);
         boolean result=Player.displayResult(true);
-        if(result==false)
+        if(!result)
             count1=10;
         return count1;
     }
     public static int player2(String name2,char key2,int count1){
         position(name2,key2);
         boolean result=Player.displayResult(true);
-        if(result==false)
+        if(!result)
             count1=10;
         return count1;
     }
