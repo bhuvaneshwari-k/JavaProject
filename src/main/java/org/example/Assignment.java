@@ -71,6 +71,7 @@ public class Assignment {
                     break;
                 case 18:
                     System.exit(0);
+                    break;
                 default:
                     logger.info("Invalid choice");
                     break;
