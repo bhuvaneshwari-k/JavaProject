@@ -37,7 +37,7 @@ public class Assignment {
                     CreditCard.getCard();
                     break;
                 case 7:
-                    StudentList.StudentTest();
+                    StudentList.studentTest();
                     break;
                 case 8:
                     Hashmap.employeeList();
