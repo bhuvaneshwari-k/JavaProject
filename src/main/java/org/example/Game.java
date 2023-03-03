@@ -5,6 +5,8 @@ import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Game{
+    private Game(){
+    }
     public static void startGame(){
         Scanner s=new Scanner(System.in);
         Scanner s1=new Scanner(System.in);
@@ -27,22 +29,34 @@ public class Game{
         boolean result;
         if(ch==1) {
             while(count1<10) {
+                if(count<10){
                 b.position(name1,key1);
                 result=p.displayResult(choice);
                 if(result==false)
-                    break;
+                    count1=10;
+                }
+                if(count<10){
                 b.position(name2,key2);
                 result=p.displayResult(choice);
                 if(result==false)
-                    break;
-//                count1=count1+2;
+                    count1=10;
+                }
             }
         }
         else {
             while(count1<10) {
+                if(count<10){
                 b.position(name2,key2);
+                result=p.displayResult(choice);
+                if(result==false)
+                    count1=10;
+                }
+                 if(count<10){
                 b.position(name1,key1);
-//                count1=count1+2;
+                     result=p.displayResult(choice);
+                if(result==false)
+                    count1=10;
+                }
             }
         }
     }
