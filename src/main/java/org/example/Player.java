@@ -11,7 +11,7 @@ public class Player extends GameBoard{
         for (int i = 0; i < 3; i++){
             for (int j = 0; j < 3; j++) {
                 if(i==row && j==col) {
-                    board[i][j] = key;
+                    GameBoard.board[i][j] = key;
                     count++;
                     displayBoard();
                 }

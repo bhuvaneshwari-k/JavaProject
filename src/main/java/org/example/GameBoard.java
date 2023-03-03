@@ -5,20 +5,30 @@ import java.io.PrintStream;
 import java.util.Scanner;
 
 public class GameBoard {
-    char[][] board = new char[3][3];
-    String name;
-    char key;
+    static char[][] board = new char[3][3];
+    static String name;
+    static char key;
     static Scanner s = new Scanner(System.in);
     static PrintStream l = new PrintStream((new FileOutputStream(FileDescriptor.out)));
 
     GameBoard() {
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                board[i][j] = ' ';
-            }
-        }
+
     }
-    public void position(String name,char key){
+    public static int player1(String name1,char key1,int count1){
+        position(name1,key1);
+        boolean result=Player.displayResult(true);
+        if(result==false)
+            count1=10;
+        return count1;
+    }
+    public static int player2(String name2,char key2,int count1){
+        position(name2,key2);
+        boolean result=Player.displayResult(true);
+        if(result==false)
+            count1=10;
+        return count1;
+    }
+    public static void position(String name,char key){
         GameBoard.name =name;
         GameBoard.key =key;
         int row = 0;

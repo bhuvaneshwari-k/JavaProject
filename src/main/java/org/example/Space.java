@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Space implements cloneable {
+public class Space implements Cloneable {
     Logger l = Logger.getLogger("space.class");
 
     String x1 = "20";
