@@ -27,7 +27,7 @@ public class Game{
         int count1=1;
         boolean choice = true;
         boolean result;
-        Switch(ch){
+        switch(ch){
             case 1: {
             while(count1<10) {
                 if(count<10){
