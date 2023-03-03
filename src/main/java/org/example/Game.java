@@ -27,7 +27,8 @@ public class Game{
         int count1=1;
         boolean choice = true;
         boolean result;
-        if(ch==1) {
+        Switch(ch){
+            case 1: {
             while(count1<10) {
                 if(count<10){
                 b.position(name1,key1);
@@ -43,7 +44,7 @@ public class Game{
                 }
             }
         }
-        else {
+            case 2:{
             while(count1<10) {
                 if(count<10){
                 b.position(name2,key2);
@@ -58,6 +59,7 @@ public class Game{
                     count1=10;
                 }
             }
+        }
         }
     }
 }
