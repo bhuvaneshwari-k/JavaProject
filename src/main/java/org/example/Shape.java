@@ -9,7 +9,7 @@ public class Shape {
     double s1;
     double s2;
     double r;
-   final double PI = 3.14;
+    double pi = 3.14;
      Shape(int type, double length, double breadth, double side1, double side2, double radius) {
         shapeType = type;
         l = length;
@@ -27,7 +27,7 @@ public class Shape {
             p = b + s1 + s2;
         }
         if (shapeType == 3) {
-            p = 2 * PI * r;
+            p = 2 * pi * r;
         }
         return p;
     }
@@ -40,7 +40,7 @@ public class Shape {
             a = (b * l) / 2;
         }
         if (shapeType == 3) {
-            a = PI * r * r;
+            a = pi * r * r;
         }
         return a;
     }

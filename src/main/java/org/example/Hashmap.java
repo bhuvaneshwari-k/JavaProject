@@ -1,14 +1,10 @@
 package org.example;
-
-import java.util.HashMap;
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Hashmap{
-    private Hashmap(){
-
+   private Hashmap(){
     }
     public static void employeeList(){
         Scanner s = new Scanner(System.in);

@@ -1,14 +1,9 @@
 package org.example;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.Scanner;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 public class Frequency {
     private Frequency(){
-
     }
     public static void countFrequency() {
         Logger l=Logger.getLogger("frequency.class");

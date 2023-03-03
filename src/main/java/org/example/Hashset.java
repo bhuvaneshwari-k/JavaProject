@@ -1,13 +1,10 @@
 package org.example;
 
-import java.util.HashSet;
-import java.util.NoSuchElementException;
-import java.util.Scanner;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 public class Hashset {
     private Hashset(){
-
     }
     public static void employeeSet() {
         Scanner s = new Scanner(System.in);
@@ -25,7 +22,7 @@ public class Hashset {
         l.log(Level.INFO,()-> "The Employees name are:"+set);
         i=0;
         l.info("Enter number of elements you want to remove:");
-        int count=s1.nextInt();
+        int count=s.nextInt();
         try {
             while (i < count) {
                 l.info("Enter Employees name to remove:");
