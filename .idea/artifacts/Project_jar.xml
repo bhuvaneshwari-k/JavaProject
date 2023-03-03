@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Project_jar</output-path>
     <root id="archive" name="Project.jar">
       <element id="module-output" name="Project" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.31.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

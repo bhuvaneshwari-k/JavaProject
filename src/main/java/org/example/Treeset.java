@@ -1,9 +1,14 @@
 package org.example;
-import java.util.*;
+
+import java.util.NoSuchElementException;
+import java.util.Scanner;
+import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 public class Treeset {
-    public static void NumberSet() {
+    private Treeset(){
+
+    }    public static void numberSet() {
         Scanner s = new Scanner(System.in);
         Logger l = Logger.getLogger("treeset.class");
         TreeSet<Integer> set = new TreeSet<>();

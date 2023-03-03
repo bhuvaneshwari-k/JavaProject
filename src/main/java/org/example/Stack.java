@@ -55,12 +55,14 @@ public class Stack {
 
     public static void getStack() {
         Scanner scan=new Scanner(System.in);
+        Logger log=Logger.getLogger("queue.class");
         Stack stack = new Stack();
         stack.addElement(12);
         stack.addElement(4);
         stack.addElement(10);
         stack.addElement(50);
         stack.printElements();
+        log.info("Enter number of elements you want to remove:");
         int num=scan.nextInt();
         int i=0;
         try {

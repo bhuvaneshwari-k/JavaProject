@@ -25,12 +25,10 @@ public class ContactList {
     public void insertContact(String name, long phno, String email,int index){
         Node newNode=new Node(name,phno,email);
         if(index==0){
-            l.info("After insert the contact at start:");
             newNode.next= rootNode;
             rootNode=newNode;
         }
         else{
-            l.info("After insert the contact at middle/last:");
             Node temp=rootNode;
             int count1=0;
             while(temp!=null){
@@ -48,12 +46,10 @@ public class ContactList {
     }
     public void deleteContact(int index){
         if(index==0){
-            l.info("After delete the contact at start:");
             Node temp=rootNode;
             rootNode=temp.next;
         }
         else{
-            l.info("After delete the contact at middle/last:");
             Node temp=rootNode;
             int count1=0;
             while(temp!=null){
@@ -113,39 +109,47 @@ public class ContactList {
         Scanner s1 = new Scanner(System.in);
         ContactList ll = new ContactList();
         int ch;
-        l.info("\n 1.To Add the contact.\n2.To Insert the contact.\n3.To Delete the contact.\n4.To Search the Contact.\n5.To Display the contact.\n6.To exit.");
-        do {
-            l.info("Enter your choice:");
+         do {
+             l.info("\n 1.To Add the contact.\n2.To Insert the contact.\n3.To Delete the contact.\n4.To Search the Contact.\n5.To Display the contact.\n6.To exit.");
+             l.info("Enter your choice:");
             ch=s.nextInt();
             try {
             switch (ch) {
-                    case 1 -> {
-                        l.info("Enter the number of contacts you want to add:");
-                        int size = s.nextInt();
-                        int i = 0;
-                        while (i < size) {
-                            l.info("Enter name,phonenumber,emailid to add:");
-                            ll.addContact(s1.nextLine(), s.nextLong(), s1.nextLine());
-                            i++;
-                        }
+                case 1: {
+                    l.info("Enter the number of contacts you want to add:");
+                    int size = s.nextInt();
+                    int i = 0;
+                    while (i < size) {
+                        l.info("Enter name,phonenumber,emailid to add:");
+                        ll.addContact(s1.nextLine(), s.nextLong(), s1.nextLine());
+                        i++;
                     }
-                    case 2 -> {
-                        l.info("Enter name,phonenumber,emailid,index to insert:");
-                        ll.insertContact(s1.nextLine(), s.nextLong(), s1.nextLine(), s.nextInt());
-                    }
-                    case 3 -> {
-                        l.info("Enter index to delete:");
-                        ll.deleteContact(s.nextInt());
-                    }
-                    case 4 -> {
-                        l.info("Enter contact name to search:");
-                        ll.searchContact(s1.nextLine());
-                    }
-                    case 5 ->
-                            ll.displayContact();
-                    default ->
-                            l.info("Invalid choice.");
+                    break;
                 }
+                case 2: {
+                    l.info("Enter name,phonenumber,emailid,index to insert:");
+                    ll.insertContact(s1.nextLine(), s.nextLong(), s1.nextLine(), s.nextInt());
+                    break;
+                }
+                case 3: {
+                    l.info("Enter index to delete:");
+                    ll.deleteContact(s.nextInt());
+                    break;
+                }
+                case 4: {
+                    l.info("Enter contact name to search:");
+                    ll.searchContact(s1.nextLine());
+                    break;
+                }
+                case 5: {
+                    ll.displayContact();
+                    break;
+                }
+                default: {
+                    l.info("Invalid choice.");
+                    break;
+                }
+            }
             }catch (InputMismatchException e){
                       l.log(Level.INFO,()->"Invalid Input"+e.getMessage());
             }

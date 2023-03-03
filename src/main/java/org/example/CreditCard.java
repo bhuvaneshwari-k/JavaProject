@@ -1,6 +1,8 @@
 package org.example;
-import java.util.logging.*;
-import java.util.*;
+
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 public class CreditCard implements Cloneable{
     Logger l=Logger.getLogger("creditcard.class");
     String cardnumber1="1202340456067808";

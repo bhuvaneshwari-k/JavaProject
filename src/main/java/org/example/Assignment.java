@@ -1,7 +1,8 @@
 package org.example;
+
 import java.sql.SQLException;
+import java.util.Scanner;
 import java.util.logging.Logger;
-import java.util.*;
 
 
 public class Assignment {
@@ -16,7 +17,7 @@ public class Assignment {
             switch (ch) {
                 case 1:
                     BankAccount bankaccount = new BankAccount();
-                    bankaccount.BankProcess();
+                    bankaccount.bankProcess();
                     break;
                 case 2:
                     BasicShape basicshape=new BasicShape();
@@ -37,19 +38,19 @@ public class Assignment {
                     CreditCard.getCard();
                     break;
                 case 7:
-                    StudentList.StudentTest();
+                    StudentList.studentTest();
                     break;
                 case 8:
-                    Hashmap.EmployeeList();
+                    Hashmap.employeeList();
                     break;
                 case 9:
-                    Hashset.EmployeeSet();
+                    Hashset.employeeSet();
                     break;
                 case 10:
-                    Treeset.NumberSet();
+                    Treeset.numberSet();
                     break;
                 case 11:
-                    SimpleCalculator.Calculator();
+                    SimpleCalculator.calculator();
                     break;
                 case 12:
                     ContactList.getContact();
@@ -71,6 +72,7 @@ public class Assignment {
                     break;
                 case 18:
                     System.exit(0);
+                    break;
                 default:
                     logger.info("Invalid choice");
                     break;

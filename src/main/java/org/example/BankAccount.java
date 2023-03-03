@@ -1,7 +1,8 @@
 package org.example;
+
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.*;
 
 public class BankAccount {
         Scanner scanner1 = new Scanner(System.in);
@@ -27,25 +28,31 @@ public class BankAccount {
         }
 
         int ch;
-        public void BankProcess() {
+        public void bankProcess() {
           AccountProcess ba = new AccountProcess(username1, num1, 0.0);
           do {
               l.info("1.Deposit\n2.Withdrawal\n3.Current Balance\n4.Exit");
               l.info("Enter your choice:");
               ch = scanner1.nextInt();
               switch (ch) {
-                  case 1 -> {
+                  case 1:{
                       l.info("Enter the amount to deposit:");
                       long amt = scanner1.nextLong();
                       ba.deposit(amt);
+                      break;
                   }
-                  case 2 -> {
+                  case 2: {
                       l.info("Enter the amount to withdraw:");
                       long amt1 = scanner1.nextLong();
                       ba.withdrawal(amt1);
+                      break;
                   }
-                  case 3 -> ba.displaybalance();
-                  default ->
+                  case 3: {
+                      ba.displaybalance();
+                      break;
+                  }
+
+                  default :
                       l.info("you are exiting...!");
               }
           } while (ch < 4);

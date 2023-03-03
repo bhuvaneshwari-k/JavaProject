@@ -44,16 +44,18 @@ public class Queue {
                     temp = temp.nextNode;
                 }
             }
-            log.log(Level.INFO, "Size of the Queue is:" + this.count);
+            log.log(Level.INFO, ()->"Size of the Queue is:" + this.count);
     }
 
     public static void startQueue() {
         Scanner scan=new Scanner(System.in);
+        Logger log=Logger.getLogger("queue.class");
         Queue queue = new Queue();
         queue.addElement(12);
         queue.addElement(4);
         queue.addElement(10);
         queue.printElements();
+        log.info("Enter number of elements you want to remove:");
         int num=scan.nextInt();
         int i=0;
         while(i<num) {

@@ -1,6 +1,8 @@
 package org.example;
-import java.util.logging.*;
+
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 public class StudentList implements Comparator<StudentList>{
     Logger l=Logger.getLogger("studentList.class");
     String name;
@@ -19,7 +21,7 @@ public class StudentList implements Comparator<StudentList>{
     public int compare(StudentList a,StudentList b){
         return (int) ((int)b.gpa-a.gpa);
     }
-    public static void StudentTest() {
+    public static void studentTest() {
         Logger l = Logger.getLogger("studentList.class");
         Scanner sc = new Scanner(System.in);
         Scanner s = new Scanner(System.in);
