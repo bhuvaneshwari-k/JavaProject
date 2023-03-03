@@ -3,6 +3,8 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 public class Frequency {
+    private Frequency(){
+    }
     public static void countFrequency() {
         Logger l=Logger.getLogger("frequency.class");
         Scanner s=new Scanner(System.in);
@@ -20,6 +22,5 @@ public class Frequency {
         PriorityQueue<Map.Entry<String,Integer>> pq= new PriorityQueue<>((a,b)-> b.getValue()-a.getValue());
         pq.addAll(map.entrySet());
         l.log(Level.INFO,()->"The word and its frequency is:"+pq);
-//        file.close();
     }
 }
