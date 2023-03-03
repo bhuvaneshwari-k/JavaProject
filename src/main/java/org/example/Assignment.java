@@ -43,13 +43,13 @@ public class Assignment {
                     Hashmap.employeeList();
                     break;
                 case 9:
-                    Hashset.EmployeeSet();
+                    Hashset.employeeSet();
                     break;
                 case 10:
-                    Treeset.NumberSet();
+                    Treeset.numberSet();
                     break;
                 case 11:
-                    SimpleCalculator.Calculator();
+                    SimpleCalculator.calculator();
                     break;
                 case 12:
                     ContactList.getContact();
