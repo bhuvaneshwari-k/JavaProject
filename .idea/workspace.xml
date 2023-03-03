@@ -9,30 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f50e70-8b1c-4f94-8b2f-07feca5c817a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Project_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Project_jar.xml" afterDir="false" />
+    <list default="true" id="55f50e70-8b1c-4f94-8b2f-07feca5c817a" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Project_jar/Project.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Project_jar/Project.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Assignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BasicShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BasicShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ContactList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ContactList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Frequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hashset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hashset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Space.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StudentGPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StudentGPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StudentList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Treeset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Treeset.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +62,36 @@
       <option name="presentableId" value="Default" />
       <updated>1677759524723</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1677834658588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677834658589</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1677835281354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677835281354</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

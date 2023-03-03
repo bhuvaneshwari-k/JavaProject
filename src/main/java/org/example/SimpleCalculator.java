@@ -27,6 +27,7 @@ public class SimpleCalculator {
                     res = add.calculate();
                     double addresult = res;
                     l.log(Level.INFO, () -> msg1 + addresult);
+                    break;
                 }
                 case 2: {
                     l.info(msg);
@@ -35,6 +36,7 @@ public class SimpleCalculator {
                     res = sub.calculate();
                     double subresult = res;
                     l.log(Level.INFO, () -> msg1 + subresult);
+                     break;
                 }
                 case 3: {
                     l.info(msg);
@@ -43,6 +45,7 @@ public class SimpleCalculator {
                     res = mul.calculate();
                     double mulresult = res;
                     l.log(Level.INFO, () -> msg1 + mulresult);
+                    break;
                 }
                 case 4:{
                     l.info(msg);
@@ -51,6 +54,7 @@ public class SimpleCalculator {
                     res = div.calculate();
                     double divresult = res;
                     l.log(Level.INFO, () -> msg1 + divresult);
+                    break;
                 }
                 default : l.info("Invalid choice!");
             }
