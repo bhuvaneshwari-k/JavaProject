@@ -5,6 +5,9 @@ import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Game{
+    private Game(){
+
+    }
     public static void startGame(){
         Scanner s=new Scanner(System.in);
         Scanner s1=new Scanner(System.in);
