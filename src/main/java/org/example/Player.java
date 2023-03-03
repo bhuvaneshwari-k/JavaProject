@@ -37,12 +37,10 @@ public class Player extends GameBoard{
             if (board[i][0]!=' ' && board[i][0] == board[i][1] &&  board[i][0]== board[i][2]) {
                 l.println(name + msg);
                 choice=false;
-                break;
             }
             if (board[0][i]!=' ' && board[0][i] == board[1][i] &&  board[0][i]== board[2][i]) {
                 l.println(name + msg);
                 choice=false;
-                break;
             }
         }
         if(board[0][0]!=' ' && board[0][0] == board[1][1] &&  board[0][0]== board[2][2]) {
