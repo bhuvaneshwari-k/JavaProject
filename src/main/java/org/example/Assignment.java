@@ -16,7 +16,7 @@ public class Assignment {
             switch (ch) {
                 case 1:
                     BankAccount bankaccount = new BankAccount();
-                    bankaccount.BankProcess();
+                    bankaccount.bankProcess();
                     break;
                 case 2:
                     BasicShape basicshape=new BasicShape();
@@ -40,7 +40,7 @@ public class Assignment {
                     StudentList.StudentTest();
                     break;
                 case 8:
-                    Hashmap.EmployeeList();
+                    Hashmap.employeeList();
                     break;
                 case 9:
                     Hashset.EmployeeSet();
