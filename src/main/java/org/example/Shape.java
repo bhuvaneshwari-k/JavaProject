@@ -9,7 +9,7 @@ public class Shape {
     double s1;
     double s2;
     double r;
-   final double pi = 3.14;
+    double pi = 3.14;
      Shape(int type, double length, double breadth, double side1, double side2, double radius) {
         shapeType = type;
         l = length;
