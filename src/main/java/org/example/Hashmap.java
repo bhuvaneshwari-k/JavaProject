@@ -4,7 +4,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Hashmap{
-    public static void EmployeeList(){
+   private Hashmap(){
+    }
+    public static void employeeList(){
         Scanner s = new Scanner(System.in);
         Scanner s1 = new Scanner(System.in);
         Logger l = Logger.getLogger("hashmap.class");
