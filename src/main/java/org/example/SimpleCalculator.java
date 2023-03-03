@@ -5,7 +5,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class SimpleCalculator {
-    public static void Calculator() {
+    private SimpleCalculator(){
+    }
+    public static void calculator() {
         Logger l = Logger.getLogger("calculator.class");
         Scanner s = new Scanner(System.in);
         l.info("Enter the number1:");
