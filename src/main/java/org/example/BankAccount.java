@@ -27,7 +27,7 @@ public class BankAccount {
         }
 
         int ch;
-        public void BankProcess() {
+        public void bankProcess() {
           AccountProcess ba = new AccountProcess(username1, num1, 0.0);
           do {
               l.info("1.Deposit\n2.Withdrawal\n3.Current Balance\n4.Exit");
