@@ -10,7 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f50e70-8b1c-4f94-8b2f-07feca5c817a" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AccountProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bank/AccountProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bank/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bank/BankException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BasicShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/shape/BasicShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CalculatorOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/CalculatorOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ContactList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/contactlist/ContactList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creditcard/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/database/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/frequency/Frequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/game/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/Hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hashset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/Hashset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/contactlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/list/Node1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/game/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/list/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/shape/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/point/Space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/list/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StudentGPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/student/StudentGPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/list/StudentList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Treeset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/Treeset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UnavailableCellException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/game/UnavailableCellException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677843166680</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1677843252391</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843252391</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
